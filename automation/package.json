@@ -1,0 +1,16 @@
+{
+  "name": "ezra-member-playwright-suite",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "show-report": "playwright show-report",
+    "install:browsers": "playwright install --with-deps"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.48.2",
+    "dotenv": "16.4.5"
+  }
+}
